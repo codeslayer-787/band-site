@@ -5,7 +5,7 @@ body {
         background-color: rgb(54, 54, 54);
         text-align: center;           
     }
-img {height: 400px; width: 300px;
+img {height: 900px; width: 500px;
 }
 
 #jinjer {height: 400px; width: 600px; border: solid black 2px;
@@ -13,6 +13,6 @@ img {height: 400px; width: 300px;
 #dave {height: 400px; width: 600px; border: solid black 2px;
 }
 li {
-    border: solid black 1px;
+    border: solid rgb(47, 123, 146) 1px;
     display: inline;
 }
