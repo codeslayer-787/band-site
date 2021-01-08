@@ -1,7 +1,8 @@
 
 let correctAnswer = 1;
 
-function bandMembers(){
+function bandMembers(event){
+    event.preventDefault();
     let userAnswer = prompt ('How many guitars does a band need?');
     while (userAnswer < 0 || userAnswer > 10){
         userAnswer = prompt('Too What?  Please select a number 1 - 10');
